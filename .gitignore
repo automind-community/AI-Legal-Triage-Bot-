@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Environment & Secrets
+.env
+*.env.local
+
+# Data & Index Artifacts (scoped to data/ only)
+data/*.bin
+data/*.jsonl
+data/*.parquet
+data/*.index
+data/*.npy
+
+# Exception: keep the directory itself
+!data/.gitkeep
+
+# Testing & Linting
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp

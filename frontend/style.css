@@ -1,0 +1,14 @@
+/* LexRAG Modern Legal Dark & Glassmorphism Theme */
+:root {
+    --bg-primary: #0a0d14;
+    --bg-secondary: #121722;
+    --accent-gold: #c5a059;
+    --accent-gold-glow: rgba(197, 160, 89, 0.25);
+    --text-primary: #f0f3f8;
+    --text-muted: #8b9bb4;
+    --border-subtle: rgba(255, 255, 255, 0.08);
+    --font-heading: 'Cinzel', serif;
+    --font-body: 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+}
+/* Stylesheet stub for responsive layout, citations drawer, stream cursor */
